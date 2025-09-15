@@ -1,0 +1,22 @@
++------------------------------+
+| ALS Progression Prediction 1 |
++------------------------------+
+
+    1. Dataset
+        https://ncri1.partners.org/ProACT
+    
+    2. Preprocessing
+        * Data Cleaning
+        * Static Features + Temporal Features Processing
+
+    3. Modeling
+        * Multi-Step and Multi-Output Forecasting (3m, 6m, 9m, 12m)
+        * 5-Fold Cross Validation
+        * Temporal Transformer With Multi-Head Attention
+        * Optimization - RMSprop
+    
+    4. Evaluation
+        * MSE
+        * RMSE
+        * MAE
+        * R2-Score
